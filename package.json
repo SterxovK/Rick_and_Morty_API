@@ -1,0 +1,22 @@
+{
+  "name": "rick",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js",
+    "homepage":  "git@github.com,:SterxovK/Rick_and_Morty_API.git"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-preloader": "^1.1.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8",
+    "vue-gh-pages": "^1.19.1"
+  }
+}
