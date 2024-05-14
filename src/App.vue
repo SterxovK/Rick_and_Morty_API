@@ -398,5 +398,10 @@ label {
     .card__text {
         pointer-events: none;
     }
+    .filter__form {
+        flex-direction: column;
+        align-items: center;
+        height: 13rem;
+    }
 }
 </style>
